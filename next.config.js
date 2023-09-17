@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = { target: "experimental-serverless-trace" };
 
-module.exports = nextConfig
+module.exports = nextConfig;
